@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML only media player</title>
 </head>
 <body>
     <!-- You are given 12 files; 6 audio and 6 video.
@@ -11,6 +11,35 @@
     1.mp3, 2.mp3 .... 6.mp3
     1.mp4, 2.mp4 .... 6.mp4 -->
 
+    <header>
+        <h1>Media player</h1>
+    </header>
+
+    <main>
+        <section id="video_section" >
+            <video src="video_files/1st_video.mp4" class="video" id="video_1" height="100" loop muted autoplay preload="metadata" muted></video>
+            <video src="video_files/2nd_video.mp4" class="video" id="video_2" height="100" loop muted autoplay preload="metadata" muted></video>
+            <video src="video_files/3rd_video.mp4" class="video" id="video_3" height="100" loop muted autoplay preload="metadata" muted></video>
+            <video src="video_files/4th_video.mp4" class="video" id="video_4" height="100" loop muted autoplay preload="metadata" muted></video>
+            <video src="video_files/5th_video.mp4" class="video" id="video_5" height="100" loop muted autoplay preload="metadata" muted></video>
+            <video src="video_files/6th_video.mp4" class="video" id="video_6" height="100" loop muted autoplay preload="metadata" muted></video>
+        </section>
+
+        <section id="audio_section">
+            <audio src="audio_files/1st_audio.mp3" class="audio" id="audio_1" height
+            ="100" controls></audio>
+            <audio src="audio_files/2nd_audio.mp3" class="audio" id="audio_2" height
+            ="100" controls preload="metadata" muted></audio>
+            <audio src="audio_files/3rd_audio.mp3" class="audio" id="audio_3" height
+            ="100" controls preload="metadata" muted></audio>
+            <audio src="audio_files/4th_audio.mp3" class="audio" id="audio_4" height
+            ="100" controls preload="metadata" muted></audio>
+            <audio src="audio_files/5th_audio.mp3" class="audio" id="audio_5" height
+            ="100" controls preload="metadata" muted></audio>
+            <audio src="audio_files/6th_audio.mp3" class="audio" id="audio_6" height
+            ="100" controls preload="metadata" muted></audio>
+        </section>
+    </main>
 
 </body>
 </html>
